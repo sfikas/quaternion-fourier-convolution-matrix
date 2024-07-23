@@ -227,7 +227,7 @@ def eigdecomposition(Q, is_hermitian=True, return_nparrays=False):
         idiodianysmata = np.zeros([N,N], dtype=np.quaternion)
         idiotimes = np.zeros([N,], dtype=np.quaternion)
     for i in range(N):
-        raise ValueError('TODO Fix this index... (see qsvd)')
+        # TODO WARNING !!!! Check this (see qsvd), possible problem with index
         i2 = 2*i-1
         if(not return_nparrays):
             idiotimes.append(lam[i2])
