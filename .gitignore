@@ -1,0 +1,10 @@
+.vscode/
+__pycache__/
+venv/
+venv.prepytorch/
+pretrained_models/
+data/
+log_*
+save_temp/
+save_*
+*.out
