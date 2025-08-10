@@ -1,6 +1,6 @@
 '''
 
-By G.Sfikas, Fall 2019
+By XXXXXXXX, Fall 2019
 '''
 
 import logging

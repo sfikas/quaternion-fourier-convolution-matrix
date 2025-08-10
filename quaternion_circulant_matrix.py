@@ -1,6 +1,6 @@
 '''
 
-By G.Sfikas, Jan 2021
+By 
 '''
 
 import numpy as np

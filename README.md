@@ -12,10 +12,5 @@
 Please cite the paper as:
 
 ```
-@article{sfikas2023matrix,
-  title={On the Matrix Form of the Quaternion Fourier Transform and Quaternion Convolution},
-  author={Sfikas, Giorgos and Retsinas, George},
-  journal={arXiv preprint arXiv:2307.01836},
-  year={2023}
-}
+XXXXXXXXXXXXXX
 ```

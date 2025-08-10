@@ -1,6 +1,6 @@
 '''
 Routines on circulant and doubly-block circulant matrices
-G.Sfikas 2017-2020
+XXXXXX 2017-2020
 '''
 
 import numpy as np

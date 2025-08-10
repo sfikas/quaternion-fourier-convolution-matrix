@@ -4,7 +4,7 @@ Symplectic decomposition
 References:
 Ell and Sangwine, "Decomposition of 2D Hypercomplex Fourier Transforms into Pairs of Complex Fourier Transforms"
 
-By G.Sfikas, Mar 2020
+By   Mar 2020
 '''
 
 from re import T
