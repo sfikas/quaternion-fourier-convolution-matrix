@@ -39,6 +39,23 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
 </p>
 <br>
 
+<p align="center"> 
+<img src="figs/theorem35-4b.png" width=40% height=40%> <br>
+        Quaternion convolution kernel $k_C$ (left) is related to doubly-block circulant matrix $C$ (top).
+        In this work, we show that the left spectrum (right) of any $C$ can be accessed via applying a QFT over kernel $k_C$.
+        Furthermore, the kernel can be reconstructed exactly via IQFT.
+        This provides a fast and accurate way to access spectral characteristics of convolution,
+        completely bypassing the construction and manipulation of the (quadratically increasing)
+        doubly-block circulant $C$.
+</p>
+
+
+<br>
+<p align="center"> 
+<img src="figs/theorem43-2b.png" width=40% height=40%> <br>
+</p>
+<br>
+
 ## Paper Abstract
 
 Linear transformations are ubiquitous in machine learning, and matrices are the standard way to represent them.
