@@ -50,7 +50,7 @@
         The literature focuses on right eigenvalues,
         as no general method exists to compute the left spectrum.
         In this paper, our focus turns to the usefulness of the left spectrum, 
-        which we show how to compute efficiently in the %context of circulant structures.
+        which we show how to compute efficiently in the
         case of circulant-structured matrices.
 </p>
 <br>
