@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding</h1>
 
-<p>This is the official implementation for the theoretical tools introduced and discussed in the paper: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
+<p>This is the official implementation for the theoretical tools introduced and discussed in the paper by Giorgos Sfikas and George Retsinas: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
 </div>
 <p align="center">
   <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
