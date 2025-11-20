@@ -3,17 +3,20 @@
 
 <p>This is the official implementation for the theoretical tools introduced and discussed in the paper by Giorgos Sfikas and George Retsinas: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> </p>
 
-<p> 🎉 Accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025 🎉</p>
+<p> 🎉 Accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR, 2025)</strong> 🎉</p>
   <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
   <a href="https://arxiv.org/abs/2307.01836"><img src="https://img.shields.io/badge/arXiv-2307.01836-B31B1B.svg" alt="arXiv"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
 <div align="center">
-  <a href="https://www.cs.uoi.gr/~sfikas/" target="_blank">Giorgos&nbsp;Sfikas</a><sup>1</sup> &ensp; <b>&middot;</b> &ensp;
-  <a href="https://georgeretsi.github.io/" target="_blank">George&nbsp;Retsinas</a><sup>2</sup> &ensp; <b>&middot;</b> &ensp;
-  <sup>1</sup> Dpt. of Surveying and Geoinformatics, University of West Attica &emsp; 
-  <sup>2</sup> Electrical & Computer Engineering School, National Technical University of Athens &emsp;
+  <a href="https://www.cse.uoi.gr/~sfikas/" target="_blank">Giorgos&nbsp;Sfikas</a><sup>1</sup> &ensp; <b>&middot;</b> &ensp;
+  <a href="https://georgeretsi.github.io/" target="_blank">George&nbsp;Retsinas</a><sup>2</sup> &ensp;
+  <br>
+  <sup>1</sup> Department of Surveying and Geoinformatics Engineering, University of West Attica &emsp;
+  <br>
+  <sup>2</sup> School of Electrical & Computer Engineering, National Technical University of Athens &emsp;
+  <br>
 </div>
 <br>
 
