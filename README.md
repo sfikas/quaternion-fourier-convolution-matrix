@@ -1,6 +1,8 @@
-# Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding
+<div align="center">
+<h1>Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding</h1>
 
-This is the official implementation for the theoretical tools introduced and discussed in the paper: *"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"* (accepted in the **Transacations on Machine Learning Research Journal (TMLR)**, 2025)
+<p>This is the official implementation for the theoretical tools introduced and discussed in the paper: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted in the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
+</div>
 <p align="center">
   <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
   <a href="https://arxiv.org/abs/2307.01836"><img src="https://img.shields.io/badge/arXiv-2307.01836-B31B1B.svg" alt="arXiv"></a>
@@ -14,7 +16,7 @@ We show how the relation of convolution, circulant matrices and the Fourier tran
 A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results.
 
 <p align="center"> 
-<img src="figs/realVSquat3b.png" width=40% height=40%> <br>
+<img src="figs/realVSquat3b.png" width=80% height=80%> <br>
         Matrices of real-valued elements (top left) form a standard representational unit
         for unidimensional data, such as grayscale pixels (bottom left), neural network weights or other unidimensional signals.
         Matrices of quaternion-valued elements (top right) represent an arrangement of multidimensional data
@@ -23,7 +25,7 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
 <br>
 
 <p align="center"> 
-<img src="figs/spectrum_comparison2b.png" width=40% height=40%> <br>
+<img src="figs/spectrum_comparison2b.png" width=80% height=80%> <br>
         The whole is more than the sum of its parts:
         Quaternionic matrix eigenstructure is significantly richer  than the eigenstructure of real matrices.
         The set of all eigenvalues of a real-valued matrix forms the spectrum $\sigma(\cdot)$ of the matrix;
@@ -40,7 +42,7 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
 <br>
 
 <p align="center"> 
-<img src="figs/theorem35-4b.png" width=40% height=40%> <br>
+<img src="figs/theorem35-4b.png" width=80% height=80%> <br>
         Quaternion convolution kernel $k_C$ (left) is related to doubly-block circulant matrix $C$ (top).
         In this work, we show that the left spectrum (right) of any $C$ can be accessed via applying a QFT over kernel $k_C$.
         Furthermore, the kernel can be reconstructed exactly via IQFT.
@@ -52,7 +54,7 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
 
 <br>
 <p align="center"> 
-<img src="figs/theorem43-2b.png" width=40% height=40%> <br>
+<img src="figs/theorem43-2b.png" width=80% height=80%> <br>
 </p>
 <br>
 
