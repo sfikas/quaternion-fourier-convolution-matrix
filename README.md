@@ -1,4 +1,5 @@
-<div align="center">
+<!-- -->
+<div align="center"> 
 <h1>Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding</h1>
 
 <p>This is the official implementation for the theoretical tools introduced and discussed in the paper by Giorgos Sfikas and George Retsinas: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> </p>
@@ -19,6 +20,8 @@
   <br>
 </div>
 <br>
+
+</div>
 
 **TL;DR**: *We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain. A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results*.
 
