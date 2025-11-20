@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding</h1>
 
-<p>This is the official implementation for the theoretical tools introduced and discussed in the paper: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted in the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
+<p>This is the official implementation for the theoretical tools introduced and discussed in the paper: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
 </div>
 <p align="center">
   <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
@@ -12,15 +12,19 @@
 
 **TL;DR**: *We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain. A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results*.
 
+<hr>
 
-<!-- <p align="center"> 
+<!-- -->
+<p align="center"> 
 <img src="figs/realVSquat3b.png" width=80% height=80%> <br>
         A. Matrices of real-valued elements (top left) form a standard representational unit
         for unidimensional data, such as grayscale pixels (bottom left), neural network weights or other unidimensional signals.
         Matrices of quaternion-valued elements (top right) represent an arrangement of multidimensional data
         such as colour images or 3D spatial rotation (bottom right).
 </p>
-<br> -->
+<br> 
+
+<hr>
 
 <p align="center"> 
 <img src="figs/spectrum_comparison2b.png" width=80% height=80%> <br>
@@ -58,7 +62,7 @@
 <img src="figs/theorem43-2b.png" width=80% height=80%> <br>
         A visual summary of the procedure that forms the backbone of the Lipschitz constant-bounding method,
         enabled with our results.
-        Given a quaternionic convolution kernel $k_C$ (top left), we compute left eigenvalues $\mathbf{\lambda}^\mu$ via the QFT with axis $\mu \in \HH$.
+        Given a quaternionic convolution kernel $k_C$ (top left), we compute left eigenvalues $\mathbf{\lambda}^\mu$ via the QFT with axis $\mu \in \mathbf{H}$.
         From our left eigenvalues we construct matrix $\Xi$, then matrix $\Phi$ (see in-text for details),
         Crucially, matrix $\Phi$ has the same singular values with doubly-block convolutional matrix $C$,
         but is much easier to construct and manipulate due to its block diagonal structure, with blocks sized either $1\times 1$ or $2\times 2$.
