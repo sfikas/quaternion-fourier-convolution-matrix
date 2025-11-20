@@ -47,7 +47,7 @@ The repository is structured to separate the core utilities from the demonstrati
 | `quaternion_symplectic.py` | Implementation of quaternion symplectic operations. |
 | `circulant.py` | Utility functions for standard circulant matrices. |
 | `requirements.txt` | Python dependencies for setting up the environment. |
-| `QFourier Notebook 01-07...ipynb` | **Demonstration Notebooks** numerical validation and demonstrators of the paper's propositions. |
+| `QFourier Notebook 01-09...ipynb` | **Demonstration Notebooks**: numerical validation and demonstrators of the paper's propositions. |
 
 ### Key Demonstrations (Notebooks)
 
@@ -55,11 +55,14 @@ The following Jupyter Notebooks demonstrate the key theoretical results of the p
 
 | Notebook | Focus/Proposition |
 | :--- | :--- |
-| `QFourier Notebook 03...` | **Proposition 3.1 & 3.2:** Showing the QFT as a matrix product. |
-| `QFourier Notebook 04...` | **Proposition 3.3:** Demonstrating the convolution-multiplication property. |
-| `QFourier Notebook 05...` | **Proposition 3.5:** Exploring the relationship between QCM and standard circulant matrices. |
-| `QFourier Notebook 06...` | **Proposition 3.4:** Validating the spectral decomposition of the QCM. |
-| `QFourier Notebook 07...` | Exploring properties like sums and products of circulant matrices. |
+| `QFourier Notebook 01` | Visualization of quaternion circulant matrices (1/2). |
+| `QFourier Notebook 02` | Visualization of quaternion circulant matrices (2/2). |
+| `QFourier Notebook 03` | **Propositions 3.1/3.2** Quaternion convolution as product of a circulant x vectorized input, and linear combination of permutation matrices. |
+| `QFourier Notebook 04` | **Proposition 3.3:** General properties of the Quaternion Fourier Matrix. |
+| `QFourier Notebook 05` | **Proposition 3.4:** All QFT matrices are connected via a rotation $pQ\bar{p}$|
+| `QFourier Notebook 06` | **Proposition 3.5:** The eigenstructure of Quaternionic Circulant matrices and relation to Quaternion Fourier matrices. |
+| `QFourier Notebook 07` | **Proposition 3.7:** Properties of sums and products of Quaternion Circulant matrices. |
+| `QFourier Notebook 09` | Implementation of spectral norm clipping / Lipschitz constant bounding. |
 
 ***
 
