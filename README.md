@@ -51,7 +51,7 @@ The repository is structured to separate the core utilities from the demonstrati
 
 ### Key Demonstrations (Notebooks)
 
-The following Jupyter Notebooks demonstrate the key theoretical results of the paper:
+The following Jupyter Notebooks serve to demonstrate the key theoretical results of the paper:
 
 | Notebook | Focus/Proposition |
 | :--- | :--- |
@@ -60,9 +60,12 @@ The following Jupyter Notebooks demonstrate the key theoretical results of the p
 | `QFourier Notebook 03` | **Propositions 3.1/3.2** Quaternion convolution as product of a circulant x vectorized input, and linear combination of permutation matrices. |
 | `QFourier Notebook 04` | **Proposition 3.3:** General properties of the Quaternion Fourier Matrix. |
 | `QFourier Notebook 05` | **Proposition 3.4:** All QFT matrices are connected via a rotation $pQ\bar{p}$|
-| `QFourier Notebook 06` | **Proposition 3.5:** The eigenstructure of Quaternionic Circulant matrices and relation to Quaternion Fourier matrices. |
+| `QFourier Notebook 06` | **Propositions 3.5/3.6:** The eigenstructure of Quaternionic Circulant matrices and relation to Quaternion Fourier matrices. |
 | `QFourier Notebook 07` | **Proposition 3.7:** Properties of sums and products of Quaternion Circulant matrices. |
-| `QFourier Notebook 09` | Implementation of spectral norm clipping / Lipschitz constant bounding. |
+| `QFourier Notebook 09` | **Propositions 4.3/4.4:** Implementation of spectral norm clipping for Lipschitz constant bounding. |
+| `QFourier Notebook A0` | A simple demonstration of the QFT (1/2). |
+| `QFourier Notebook A1` | A simple demonstration of the QFT (2/2). |
+
 
 ***
 
@@ -91,14 +94,15 @@ To clone the repository and set up the necessary Python environment, follow thes
 
 ## 🏃 Getting Started (Usage)
 
-All theoretical validations and usage examples are demonstrated within the **Jupyter Notebooks**.
+All usage examples are demonstrated within the **Jupyter Notebooks**.
 
 1.  Start the Jupyter Notebook server:
     ```bash
     jupyter notebook
     ```
 2.  Navigate to the project directory in your browser.
-3.  Open any of the `QFourier Notebook XX...ipynb` files to review the code and run the validations. The notebooks can be executed sequentially to follow the paper's flow.
+3.  Open any of the `QFourier Notebook XX...ipynb` files to review and run the code. 
+The notebooks can be executed sequentially to follow the paper's flow.
 
 ***
 
