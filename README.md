@@ -1,14 +1,21 @@
 <div align="center">
 <h1>Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding</h1>
 
-<p>This is the official implementation for the theoretical tools introduced and discussed in the paper by Giorgos Sfikas and George Retsinas: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> (accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025)</p>
-</div>
-<p align="center">
+<p>This is the official implementation for the theoretical tools introduced and discussed in the paper by Giorgos Sfikas and George Retsinas: <em>"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"</em> </p>
+
+<p> 🎉 Accepted to the <strong>Transactions on Machine Learning Research Journal (TMLR)</strong>, 2025 🎉</p>
   <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
   <a href="https://arxiv.org/abs/2307.01836"><img src="https://img.shields.io/badge/arXiv-2307.01836-B31B1B.svg" alt="arXiv"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
+<div align="center">
+  <a href="https://www.cs.uoi.gr/~sfikas/" target="_blank">Giorgos&nbsp;Sfikas</a><sup>1</sup> &ensp; <b>&middot;</b> &ensp;
+  <a href="https://georgeretsi.github.io/" target="_blank">George&nbsp;Retsinas</a><sup>2</sup> &ensp; <b>&middot;</b> &ensp;
+  <sup>1</sup> Dpt. of Surveying and Geoinformatics, University of West Attica &emsp; 
+  <sup>2</sup> Electrical & Computer Engineering School, National Technical University of Athens &emsp;
+</div>
+<br>
 
 **TL;DR**: *We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain. A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results*.
 
