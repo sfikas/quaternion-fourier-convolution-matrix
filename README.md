@@ -1,16 +1,43 @@
 # Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding
 
 This is the official implementation for the theoretical tools introduced and discussed in the paper: *"Unlocking the matrix form of the Quaternion Fourier Transform and Quaternion Convolution: Properties, connections, and application to Lipschitz constant bounding"* (accepted in the **Transacations on Machine Learning Research Journal (TMLR)**, 2025)
+<p align="center">
+  <a href="https://openreview.net/forum?id=rhcpXTxb8j"><img src="https://img.shields.io/badge/OpenReview-View-brightgreen.svg" alt="OpenReview"></a>
+  <a href="https://arxiv.org/abs/2307.01836"><img src="https://img.shields.io/badge/arXiv-2307.01836-B31B1B.svg" alt="arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
-[![OpenReview](https://img.shields.io/badge/OpenReview-View-brightgreen.svg)](https://openreview.net/forum?id=rhcpXTxb8j)
-[![arXiv](https://img.shields.io/badge/arXiv-2307.01836-B31B1B.svg)](https://arxiv.org/abs/2307.01836)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-***
 
 ## Paper TL;DR
 
 We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain.
 A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results.
+
+<p align="center"> 
+<img src="figs/realVSquat3b.png" width=40% height=40%> <br>
+        Matrices of real-valued elements (top left) form a standard representational unit
+        for unidimensional data, such as grayscale pixels (bottom left), neural network weights or other unidimensional signals.
+        Matrices of quaternion-valued elements (top right) represent an arrangement of multidimensional data
+        such as colour images or 3D spatial rotation (bottom right).
+</p>
+<br>
+
+<p align="center"> 
+<img src="figs/spectrum_comparison2b.png" width=40% height=40%> <br>
+        The whole is more than the sum of its parts:
+        Quaternionic matrix eigenstructure is significantly richer  than the eigenstructure of real matrices.
+        The set of all eigenvalues of a real-valued matrix forms the spectrum $\sigma(\cdot)$ of the matrix;
+        for real-valued (and complex-valued) matrices, it is a subset of $\mathbf{C}$.
+        In quaternionic matrices, we have two distinct spectra, the left spectrum $\sigma_\ell(\cdot)$ and the right spectrum $\sigma_r(\cdot)$ , corresponding to forms $Ax = \lambda x$ and $Ax = x\lambda$ respectively.
+        No known well-posed connection exists that relates the two spectra, and in general they can both be infinite sets.
+        The literature focuses on right eigenvalues,
+        %as the left spectrum is more difficult or impossible to compute in general.
+        as no general method exists to compute the left spectrum.
+        In this paper, our focus turns to the usefulness of the left spectrum, 
+        which we show how to compute efficiently in the %context of circulant structures.
+        case of circulant-structured matrices.
+</p>
+<br>
 
 ## Paper Abstract
 
