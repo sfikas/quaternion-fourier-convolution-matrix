@@ -35,7 +35,6 @@
         In quaternionic matrices, we have two distinct spectra, the left spectrum $\sigma_\ell(\cdot)$ and the right spectrum $\sigma_r(\cdot)$ , corresponding to forms $Ax = \lambda x$ and $Ax = x\lambda$ respectively.
         No known well-posed connection exists that relates the two spectra, and in general they can both be infinite sets.
         The literature focuses on right eigenvalues,
-        %as the left spectrum is more difficult or impossible to compute in general.
         as no general method exists to compute the left spectrum.
         In this paper, our focus turns to the usefulness of the left spectrum, 
         which we show how to compute efficiently in the %context of circulant structures.
