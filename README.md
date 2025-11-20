@@ -10,19 +10,17 @@
 </p>
 
 
-## Paper TL;DR
+**TL;DR**: *We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain. A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results*.
 
-We show how the relation of convolution, circulant matrices and the Fourier transform generalizes to the quaternionic domain.
-A Lipschitz constant bounding application acts as a proof-of-concept of the usefulness of our results.
 
-<p align="center"> 
+<!-- <p align="center"> 
 <img src="figs/realVSquat3b.png" width=80% height=80%> <br>
-        Matrices of real-valued elements (top left) form a standard representational unit
+        A. Matrices of real-valued elements (top left) form a standard representational unit
         for unidimensional data, such as grayscale pixels (bottom left), neural network weights or other unidimensional signals.
         Matrices of quaternion-valued elements (top right) represent an arrangement of multidimensional data
         such as colour images or 3D spatial rotation (bottom right).
 </p>
-<br>
+<br> -->
 
 <p align="center"> 
 <img src="figs/spectrum_comparison2b.png" width=80% height=80%> <br>
@@ -41,6 +39,8 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
 </p>
 <br>
 
+<hr>
+
 <p align="center"> 
 <img src="figs/theorem35-4b.png" width=80% height=80%> <br>
         Quaternion convolution kernel $k_C$ (left) is related to doubly-block circulant matrix $C$ (top).
@@ -51,10 +51,22 @@ A Lipschitz constant bounding application acts as a proof-of-concept of the usef
         doubly-block circulant $C$.
 </p>
 
+<hr>
 
 <br>
 <p align="center"> 
 <img src="figs/theorem43-2b.png" width=80% height=80%> <br>
+        A visual summary of the procedure that forms the backbone of the Lipschitz constant-bounding method,
+        enabled with our results.
+        Given a quaternionic convolution kernel $k_C$ (top left), we compute left eigenvalues $\mathbf{\lambda}^\mu$ via the QFT with axis $\mu \in \HH$.
+        From our left eigenvalues we construct matrix $\Xi$, then matrix $\Phi$ (see in-text for details),
+        Crucially, matrix $\Phi$ has the same singular values with doubly-block convolutional matrix $C$,
+        but is much easier to construct and manipulate due to its block diagonal structure, with blocks sized either $1\times 1$ or $2\times 2$.
+        Spectrum manipulation is thus performed over $\Phi$ to obtain $\check{\Phi}$,
+        and in turn we obtain new left eigenvalues $\check{\mathbf{\lambda}^\mu}$.
+        Finally, we apply IQFT to obtain the quaternionic convolution kernel that corresponds to the manipulated/clipped convolution $k_{\check{C}}$.
+        The result is a method that is more economical in terms of space and time requirements by orders of magnitude,
+        related a process that would be oblivious to these results.
 </p>
 <br>
 
