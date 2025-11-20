@@ -88,10 +88,6 @@ class TestDoublyBlockCirculant(unittest.TestCase):
             [ 0.,  0.,  0.,  0.,  1.,  0., -1.,  1.,  0.],
             [ 0.,  0.,  0.,  0.,  0.,  1.,  0., -1.,  1.],
         ])
-        #TODO: This is inconsistent: The 'desired' output I note here comes from the DIP circulant matrix notes,
-        # *but* note that therein the first axis points upwards; so it uses [1,-1,0] as row 0, [1, 0, 0] as row 1, [0, 0, 0] as row 2.
-        # (Columns are ok).
-        #self.assertTrue((r == desired).all())   #TODO: Check the correct output
 
 class TestProducts(unittest.TestCase):
     def test_1d_product(self):

@@ -8,3 +8,4 @@ log_*
 save_temp/
 save_*
 *.out
+*copy*
