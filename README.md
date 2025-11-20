@@ -17,7 +17,7 @@
 <!-- -->
 <p align="center"> 
 <img src="figs/realVSquat3b.png" width=80% height=80%> <br>
-        A. Matrices of real-valued elements (top left) form a standard representational unit
+        Matrices of real-valued elements (top left) form a standard representational unit
         for unidimensional data, such as grayscale pixels (bottom left), neural network weights or other unidimensional signals.
         Matrices of quaternion-valued elements (top right) represent an arrangement of multidimensional data
         such as colour images or 3D spatial rotation (bottom right).
@@ -63,7 +63,7 @@
         A visual summary of the procedure that forms the backbone of the Lipschitz constant-bounding method,
         enabled with our results.
         Given a quaternionic convolution kernel $k_C$ (top left), we compute left eigenvalues $\mathbf{\lambda}^\mu$ via the QFT with axis $\mu \in \mathbf{H}$.
-        From our left eigenvalues we construct matrix $\Xi$, then matrix $\Phi$ (see in-text for details),
+        From our left eigenvalues we construct matrix $\Xi$, then matrix $\Phi$ (see in-text for details).
         Crucially, matrix $\Phi$ has the same singular values with doubly-block convolutional matrix $C$,
         but is much easier to construct and manipulate due to its block diagonal structure, with blocks sized either $1\times 1$ or $2\times 2$.
         Spectrum manipulation is thus performed over $\Phi$ to obtain $\check{\Phi}$,
